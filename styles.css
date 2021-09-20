@@ -44,6 +44,20 @@ header ul li a {
     margin: 0 20px;
     font-size: var(--sec-fontsize);
     color: var(--pri-fontcolor);
+    text-decoration: none;
+}
+
+header ul li, header ul li a {
+    transition: all 0.1s ease-in-out;
+    padding: 20px 0;
+}
+
+header ul li:hover, header ul li a:hover {
+    background-color: #FFF7AE;
+    font-weight: bold;
+    transform: scale(1.2);
+    border-radius: 20px;
+    color: black;
 }
 
 .home {
