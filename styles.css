@@ -284,3 +284,16 @@ header ul li:hover, header ul li a:hover {
     margin-left: 40px;
 }
 
+input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: var(--pri-fontcolor);
+    
+}
+
+::placeholder {
+    color: var(--pri-fontcolor);
+}
